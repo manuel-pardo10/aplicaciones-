@@ -25,7 +25,7 @@ Este proyecto incluye:
 - GitHub Actions configurados para:
   - Correr tests en **Ubuntu 22.04** y **Ubuntu 24.04**
   - Usar **Python 3.8** y **Python 3.12**
-  - Verificar formato del código antes de aprobar cambios
+  - Verificar formato del código automáticamente en cada commit o pull request
 
 ---
 
