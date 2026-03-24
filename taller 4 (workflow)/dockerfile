@@ -1,0 +1,13 @@
+FROM python:3.12-slim
+WORKDIR /app
+
+RUN pip install uv
+
+COPY pyproject.toml .
+RUN uv sync
+RUN uv pip install --system -r pyproject.toml
+
+# Copiar todo el contenido del proyecto
+COPY . .
+
+CMD ["python", "encriptador.py", "Hola Mundo", "clave123"]
