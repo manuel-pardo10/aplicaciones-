@@ -45,4 +45,8 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r taller 4 (workflow)/requirements.txt
+          pip install -r Taller_4/requirements.txt
+
+      - name: Run ruff
+        run: ruff check Taller_4
+
