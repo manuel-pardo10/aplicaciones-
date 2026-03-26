@@ -25,6 +25,7 @@ jobs:
 
       - name: Install dependencies
         run: pip install -r Taller_4/requirements.txt
+
         
       - name: Run tests
         run: pytest Taller_4
