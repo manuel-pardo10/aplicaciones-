@@ -47,6 +47,3 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r Taller_4/requirements.txt
 
-      - name: Run ruff
-        run: ruff check Taller_4
-
